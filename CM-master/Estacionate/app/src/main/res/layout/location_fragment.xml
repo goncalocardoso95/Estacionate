@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="369dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@id/search_view"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/bg_white_rounded"
+        android:clickable="true"
+        android:translationZ="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <RadioGroup
+        android:id="@+id/group_semaforo"
+        android:layout_width="247dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/search_view">
+
+        <RadioButton
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/holo_green_dark"
+            android:text="@string/Muitos"
+            android:textColor="@color/color_black" />
+
+        <RadioButton
+            android:id="@+id/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:buttonTint="@android:color/holo_orange_light"
+            android:text="@string/Poucos"
+            android:textColor="@color/color_black" />
+
+        <RadioButton
+            android:id="@+id/red"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@android:color/holo_red_dark"
+            android:text="@string/Nenhum"
+            android:textColor="@color/color_black" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="81dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/Lugares"
+        android:textColor="@color/color_black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_view" />
+
+
+</android.support.constraint.ConstraintLayout>

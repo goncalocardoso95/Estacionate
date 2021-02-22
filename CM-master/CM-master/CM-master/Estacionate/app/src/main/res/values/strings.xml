@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Estacionate</string>
+    <string name="app_name1">ESTACIONATE</string>
+    <string name="LogIn">Log In</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Email_Username">Username or E-mail</string>
+    <string name="Password">Password</string>
+    <string name="Texto">Deseja manter os dados guardados em cima.</string>
+    <string name="Forget"><u>Forget your Password?</u></string>
+    <string name="No_Account"><u>No Account?</u></string>
+    <string name="Email">Introduza o seu E-mail</string>
+    <string name="Confirmar">Confirmar</string>
+    <string name="Username">Introduza o seu Username</string>
+    <string name="alt_pass">Alterar password</string>
+    <string name="MetodoPagamento">Metodo de pagamento</string>
+    <string name="alt_email">Alterar email</string>
+    <string name="alt_user">Alterar username</string>
+    <string name="portugues">Lingua</string>
+    <string name="Perfil">Perfil</string>
+
+</resources>

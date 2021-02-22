@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "477502463734",
+    "firebase_url": "https://summer-sun-259623.firebaseio.com",
+    "project_id": "summer-sun-259623",
+    "storage_bucket": "summer-sun-259623.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477502463734:android:46e54965025a3bbad6d6d7",
+        "android_client_info": {
+          "package_name": "com.example.estacionate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477502463734-qethup08eqdd8g9vi66qk9j3uic056h1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.estacionate",
+            "certificate_hash": "628c543e71ce8c0a1694bc633e08b415a075a41f"
+          }
+        },
+        {
+          "client_id": "477502463734-p1nuvsbfuvv642obl769hqjogga377jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARC31qX498g1CrPnl2vMiv3zpEtN_MWzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477502463734-p1nuvsbfuvv642obl769hqjogga377jd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

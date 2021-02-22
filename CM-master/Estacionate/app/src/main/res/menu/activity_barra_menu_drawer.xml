@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/historic"
+            android:icon="@drawable/ic_history_24px"
+            android:title="@string/historic" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/Perfil"
+            app:actionViewClass="android.widget.Switch"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/logOut"
+            android:icon="@drawable/ic_power_settings_new_24px"
+            android:title="@string/logOut" />
+
+    </group>
+
+</menu>

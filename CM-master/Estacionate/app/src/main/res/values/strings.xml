@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Estacionate</string>
+    <string name="app_name1">ESTACIONATE</string>
+    <string name="LogIn">Log In</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Email_Username">Username/E-mail</string>
+    <string name="Password">Coloque uma Password</string>
+    <string name="Texto">Deseja manter os dados guardados em cima.</string>
+    <string name="Forget"><u>Forget your Password?</u></string>
+    <string name="No_Account"><u>No Account?</u></string>
+    <string name="Email">Introduza o seu E-mail</string>
+    <string name="Confirmar">Confirmar</string>
+    <string name="Username">Introduza o seu Username</string>
+    <string name="NewUsername">Introduza o seu novo Username</string>
+    <string name="alt_pass">Alterar password</string>
+    <string name="MetodoPagamento">Metodo de pagamento</string>
+    <string name="alt_email">Alterar email</string>
+    <string name="alt_user">Alterar username</string>
+    <string name="portugues">Lingua</string>
+    <string name="Perfil">Anónimo</string>
+    <string name="EmailNovo">Introduza o seu E-mail novo</string>
+    <string name="title_activity_barra_menu">BarraMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="historic">Histórico</string>
+    <string name="logOut">Log Out</string>
+    <string name="tuaPassword">Coloque a sua Password</string>
+    <string name="novaPassword">Coloque uma nova Password</string>
+    <string name="reporPassword">Repita a sua nova Password</string>
+    <string name="reporNewPassword">Repita a sua Password</string>
+    <string name="direction">Direção</string>
+    <string name="Add_Metodo">Adicionar Método</string>
+    <string name="Add_Promo">Adicionar Promoção</string>
+    <string name="Lugares">Lugares:</string>
+    <string name="Muitos">Muitos</string>
+    <string name="Poucos">Poucos</string>
+    <string name="Nenhum">Nenhum</string>
+    <string name="Limpar">Limpar Histórico</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_historico_item_tabbed">Histórico</string>
+    <string name="tab_text_1">Ordenar Local</string>
+    <string name="tab_text_2">Ordenar Data</string>
+    <string name="title_activity_historic_item_maps">Map</string>
+
+    <string name="web_client_id">477502463734-p1nuvsbfuvv642obl769hqjogga377jd.apps.googleusercontent.com</string>
+
+</resources>

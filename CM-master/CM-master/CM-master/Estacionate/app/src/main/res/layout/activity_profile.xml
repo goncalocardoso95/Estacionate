@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/metodo_pagamento"
+        android:layout_width="237dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/MetodoPagamento"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Perfil" />
+
+    <Button
+        android:id="@+id/alt_pass"
+        android:layout_width="239dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/alt_pass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/metodo_pagamento" />
+
+    <TextView
+        android:id="@+id/Perfil"
+        android:layout_width="73dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/Perfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/alt_email"
+        android:layout_width="235dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/alt_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alt_pass" />
+
+    <Button
+        android:id="@+id/alt_user"
+        android:layout_width="233dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/alt_user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alt_email" />
+
+    <Button
+        android:id="@+id/Portugues"
+        android:layout_width="232dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/portugues"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alt_user" />
+</android.support.constraint.ConstraintLayout>

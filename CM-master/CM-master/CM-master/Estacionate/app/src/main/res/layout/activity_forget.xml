@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Forget_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Forget">
+
+    <TextView
+        android:id="@+id/Forget1"
+        android:layout_width="264dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/Forget"
+        android:textAlignment="center"
+        android:textColor="@color/color_black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Confirmar"
+        android:layout_width="135dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/Confirmar"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/color_black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IntroEmail"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <EditText
+        android:id="@+id/IntroEmail"
+        android:layout_width="325dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/Email"
+        android:textColor="@color/color_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Forget1" />
+</android.support.constraint.ConstraintLayout>
